@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.1_1
+Version:          2.2.2
 Release:          1
 Summary:          Model-Based Boosting
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mboost_2.2-2.tar.gz
 Requires:         R-methods R-stats 
 Requires:         R-Matrix R-survival R-splines R-lattice 
 Requires:         R-multicore R-party R-ipred R-MASS R-fields R-BayesX R-gbm 
@@ -58,3 +58,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/*.R
+%{rlibdir}/%{packname}/*.Rda
