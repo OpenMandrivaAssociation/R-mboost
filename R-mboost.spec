@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          2.2.2
-Release:          1
+Release:          2
 Summary:          Model-Based Boosting
 Group:            Sciences/Mathematics
 License:          GPL-2
