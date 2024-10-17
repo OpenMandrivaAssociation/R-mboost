@@ -8,7 +8,7 @@ Release:          2
 Summary:          Model-Based Boosting
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/mboost_2.2-2.tar.gz
 Requires:         R-methods R-stats 
 Requires:         R-Matrix R-survival R-splines R-lattice 
